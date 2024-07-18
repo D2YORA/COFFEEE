@@ -1,0 +1,43 @@
+.intro{
+    width: 95%;
+    height: 450px;
+    background-image: url(../img/aboutus1.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    padding-left: 75px;
+}
+.intro_img{
+    padding: 50px;
+}
+.intro_title{
+    /* Great coffee made si */
+width: 188px;
+height: 48px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+color: #FEFCF7;
+
+
+}
+.intro_text{
+    /* Start your mornings */
+width: 445px;
+height: 104px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+}

@@ -1,0 +1,730 @@
+@charset "UTF-8";
+.wrapper {
+  margin: 150px auto;
+  width: 1350px;
+  height: 3300px;
+  background-color: whitesmoke;
+}
+
+.navbar {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_home {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar_text {
+  /* HOME */
+  height: 15px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+.intro {
+  width: 95%;
+  height: 600px;
+  background-image: url(../img/home01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 75px;
+}
+
+.intro_img {
+  padding: 50px;
+}
+
+.intro_title {
+  /* Great coffee made si */
+  width: 493px;
+  height: 145px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  color: #FEFCF7;
+}
+
+.intro_text {
+  /* Start your mornings */
+  width: 445px;
+  height: 78px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.intro_btn {
+  width: 207px;
+  height: 56px;
+  background-color: rgb(19, 247, 247);
+  /* Create your plan */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  color: #FEFCF7;
+}
+
+.intro_btn:hover {
+  background-color: blue;
+}
+
+.choose {
+  margin-left: 35px;
+  width: 95%;
+  height: 577px;
+  background-color: black;
+}
+
+.choose_title {
+  padding-top: 90px;
+  /* Why choose us? */
+  height: 48px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.choose_text {
+  /* A large part of our */
+  padding-left: 390px;
+  width: 540px;
+  height: 80px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.choose_items {
+  padding-left: 70px;
+  /* Group 10 Copy */
+  width: 300px;
+  height: 382px;
+  background-color: darkcyan;
+}
+
+.choose_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.choose_items_img {
+  padding-left: 80px;
+  padding-top: 70px;
+}
+
+.choose_items_title {
+  margin-top: 60px;
+  /* Best quality */
+  width: 255px;
+  height: 32px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.choose_items_text {
+  /* Discover an endless */
+  width: 255px;
+  height: 78px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* or 162% */
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.collection_img {
+  padding: 95px;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+}
+
+.collection_pace {
+  padding-left: 95px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.collection_title {
+  /* Gran Espresso */
+  width: 255px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #333D4B;
+}
+
+.collection_text {
+  /* Light and flavorful */
+  width: 255px;
+  height: 78px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #333D4B;
+}
+
+.works {
+  margin-left: 35px;
+  margin-top: 110px;
+  width: 95%;
+  height: 665px;
+}
+
+.works_title {
+  /* How it works */
+  padding: 50px;
+  width: 255px;
+  height: 32px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  /* identical to box height, or 133% */
+  color: #83888F;
+}
+
+.works_hr {
+  padding: 30px;
+  display: flex;
+}
+
+.works_span {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 1px solid #026e6e;
+}
+
+.hr { /* Path 2 */
+  width: 780px;
+  height: 1px;
+  background-color: burlywood;
+}
+
+.works_number {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.number_title {
+  /* Pick your coffee */
+  width: 205px;
+  height: 73px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  /* or 112% */
+  color: #333D4B;
+}
+
+.number_text {
+  /* Select from our evol */
+  width: 285px;
+  height: 130px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333D4B;
+}
+
+.intro_btn {
+  margin-left: 110px;
+  width: 207px;
+  height: 56px;
+  background-color: rgb(19, 247, 247);
+  /* Create your plan */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  color: #FEFCF7;
+}
+
+.footer_img {
+  margin-top: 220px;
+  margin-left: 40px;
+}
+
+.wrapper {
+  margin: 150px auto;
+  width: 1350px;
+  height: 2900px;
+  background-color: whitesmoke;
+}
+
+.navbar {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_home {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar_text {
+  /* HOME */
+  height: 15px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+.intro {
+  width: 95%;
+  height: 450px;
+  background-image: url(../img/aboutus1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 75px;
+}
+
+.intro_img {
+  padding: 50px;
+}
+
+.intro_title {
+  /* Great coffee made si */
+  width: 188px;
+  height: 48px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #FEFCF7;
+}
+
+.intro_text {
+  /* Start your mornings */
+  width: 445px;
+  height: 104px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.our {
+  width: 80%;
+  height: 520px;
+  margin-top: 110px;
+  margin-left: 140px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.our_title { /* Our commitment */
+  width: 357px;
+  height: 48px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #333D4B;
+}
+
+.our_text {
+  /* We’re built on a sim */
+  width: 540px;
+  height: 260px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality {
+  width: 95%;
+  height: 474px;
+  margin-top: 200px;
+  margin-left: 30px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.quality_title {
+  /* Uncompromising quali */
+  width: 517px;
+  height: 48px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #FEFCF7;
+}
+
+.quality_text {
+  width: 540px;
+  height: 130px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality_img {
+  margin-bottom: 200px;
+}
+
+.country {
+  width: 95%;
+  height: 426px;
+  margin-top: 120px;
+  margin-left: 40px;
+}
+
+.country_title {
+  /* Our headquarters */
+  padding: 10px;
+  height: 32px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #83888F;
+}
+
+.country_box {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.country_cards_title {
+  /* United Kingdom */
+  height: 36px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+  color: #333D4B;
+}
+
+.country_cards_text {
+  /* 68 Asfordby Rd Alcas */
+  width: 120px;
+  height: 107px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  /* or 162% */
+  color: #333D4B;
+}
+
+.footer_img {
+  margin-top: 220px;
+  margin-left: 40px;
+}
+
+.wrapper {
+  margin: 150px auto;
+  width: 1350px;
+  height: 2900px;
+  background-color: whitesmoke;
+}
+
+.navbar {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_home {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar_text {
+  /* HOME */
+  height: 15px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+.intro {
+  width: 95%;
+  height: 450px;
+  background-image: url(../img/aboutus1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 75px;
+}
+
+.intro_img {
+  padding: 50px;
+}
+
+.intro_title {
+  /* Great coffee made si */
+  width: 188px;
+  height: 48px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #FEFCF7;
+}
+
+.intro_text {
+  /* Start your mornings */
+  width: 445px;
+  height: 104px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.our {
+  width: 80%;
+  height: 520px;
+  margin-top: 110px;
+  margin-left: 140px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.our_title { /* Our commitment */
+  width: 357px;
+  height: 48px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #333D4B;
+}
+
+.our_text {
+  /* We’re built on a sim */
+  width: 540px;
+  height: 260px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality {
+  width: 95%;
+  height: 474px;
+  margin-top: 200px;
+  margin-left: 30px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.quality_title {
+  /* Uncompromising quali */
+  width: 517px;
+  height: 48px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #FEFCF7;
+}
+
+.quality_text {
+  width: 540px;
+  height: 130px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality_img {
+  margin-bottom: 200px;
+}
+
+.country {
+  width: 95%;
+  height: 426px;
+  margin-top: 120px;
+  margin-left: 40px;
+}
+
+.country_title {
+  /* Our headquarters */
+  padding: 10px;
+  height: 32px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #83888F;
+}
+
+.country_box {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.country_cards_title {
+  /* United Kingdom */
+  height: 36px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+  color: #333D4B;
+}
+
+.country_cards_text {
+  /* 68 Asfordby Rd Alcas */
+  width: 120px;
+  height: 107px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  /* or 162% */
+  color: #333D4B;
+}
+
+.footer_img {
+  margin-top: 220px;
+  margin-left: 40px;
+}/*# sourceMappingURL=style.css.map */

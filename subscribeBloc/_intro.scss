@@ -1,0 +1,47 @@
+.intro{
+    width: 95%;
+    height: 450px;
+    background-image: url(../img/subscribe01.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    padding-left: 75px;
+}
+.intro_img{
+    padding: 50px;
+}
+.intro_title{
+/* Create a plan */
+width: 485px;
+height: 72px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* identical to box height, or 100% */
+
+color: #FEFCF7;
+
+
+
+}
+.intro_text{
+    /* Start your mornings */
+width: 445px;
+height: 78px;
+/* Build a subscription */
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+
+}

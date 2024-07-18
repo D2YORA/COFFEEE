@@ -1,0 +1,91 @@
+.works{margin-left: 35px;
+    margin-top: 110px;
+    width: 95%;
+    height: 665px;
+}
+.works_title{
+   /* How it works */
+   
+   padding: 50px;
+width: 255px;
+height: 32px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+/* identical to box height, or 133% */
+
+color: #83888F;
+
+ 
+}
+.works_hr{
+    padding: 30px;
+display: flex;
+}
+.works_span{
+width: 31px;
+height: 31px;
+border-radius: 50%;
+border: 1px solid #026e6e;
+
+}
+.hr{/* Path 2 */
+
+   width: 780px;
+   height: 1px;
+   background-color: burlywood;
+    // border: 1px solid #cf712e;
+    
+}
+.works_number{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.number_title{
+/* Pick your coffee */
+width: 205px;
+height: 73px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+/* or 112% */
+
+color: #333D4B;
+}
+.number_text{
+    /* Select from our evol */
+width: 285px;
+height: 130px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #333D4B;
+
+
+}
+.intro_btn{
+    margin-left: 110px;
+    width: 207px;
+    height: 56px;
+    background-color: rgb(19, 247, 247);
+    /* Create your plan */
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+text-align: center;
+border-radius: 5px;
+border: none;
+color: #FEFCF7;
+}

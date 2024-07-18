@@ -1,0 +1,93 @@
+.choose{margin-left: 35px;
+    width: 95%;
+    height: 577px;
+    background-color: black;
+}
+.choose_title{
+    padding-top: 90px;
+    /* Why choose us? */
+height: 48px;
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+text-align: center;
+
+color: #FEFCF7;
+
+
+}
+.choose_text{
+  /* A large part of our */
+  padding-left: 390px;
+width: 540px;
+height: 80px;
+
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+  
+}
+.choose_items{
+    padding-left: 70px;
+    /* Group 10 Copy */
+width: 300px;
+height: 382px;
+background-color: darkcyan;
+
+
+}
+.choose_box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.choose_items_img{
+    padding-left: 80px;
+    padding-top: 70px;
+}
+.choose_items_title{
+    margin-top: 60px;
+    /* Best quality */
+width: 255px;
+height: 32px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+/* identical to box height, or 133% */
+text-align: center;
+
+color: #FEFCF7;
+
+
+}
+.choose_items_text{
+    /* Discover an endless */
+width: 255px;
+height: 78px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+/* or 162% */
+text-align: center;
+
+color: #FEFCF7;
+
+
+}

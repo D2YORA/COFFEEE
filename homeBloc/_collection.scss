@@ -1,0 +1,42 @@
+
+.collection_img{
+  padding: 95px;
+background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+ 
+}
+.collection_pace{
+    padding-left: 95px;
+display: flex;
+align-items: center;
+gap: 40px;
+}
+.collection_title{
+    /* Gran Espresso */
+width: 255px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+/* identical to box height, or 133% */
+text-align: center;
+
+color: #333D4B;
+
+
+}
+.collection_text{
+    /* Light and flavorful */
+width: 255px;
+height: 78px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #333D4B;
+
+
+}

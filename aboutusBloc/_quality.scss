@@ -1,0 +1,47 @@
+.quality{width: 95%;
+    height: 474px;
+    margin-top: 200px;
+    margin-left: 30px;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.quality_title{
+    /* Uncompromising quali */
+width: 517px;
+height: 48px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+color: #FEFCF7;
+
+
+}
+.quality_text{
+ 
+width: 540px;
+height: 130px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+
+
+}
+.quality_img{
+    margin-bottom: 200px;
+}

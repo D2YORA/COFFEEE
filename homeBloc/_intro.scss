@@ -1,0 +1,61 @@
+.intro{
+    width: 95%;
+    height: 600px;
+    background-image: url(../img/home01.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    padding-left: 75px;
+}
+.intro_img{
+    padding: 50px;
+}
+.intro_title{
+    /* Great coffee made si */
+width: 493px;
+height: 145px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* or 100% */
+
+color: #FEFCF7;
+}
+.intro_text{
+    /* Start your mornings */
+width: 445px;
+height: 78px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+}
+.intro_btn{
+    width: 207px;
+    height: 56px;
+    background-color: rgb(19, 247, 247);
+    /* Create your plan */
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+text-align: center;
+border-radius: 5px;
+border: none;
+color: #FEFCF7;
+
+
+}
+.intro_btn:hover{background-color: blue;}

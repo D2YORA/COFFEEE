@@ -1,0 +1,44 @@
+.our{width: 80%;
+    height: 520px;
+    margin-top: 110px;
+margin-left: 140px;
+display: flex;
+align-items: center;
+gap: 120px;
+}
+
+.our_title{/* Our commitment */
+width: 357px;
+    height: 48px;
+   
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    
+    color: #333D4B;
+    
+    
+
+}
+.our_text{
+    /* We’re built on a sim */
+
+width: 540px;
+height: 260px;
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #333D4B;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+}
